@@ -66,5 +66,7 @@ workflows:
           success: true     # To receive a notification when a build succeeds
           failure: false    # To not receive a notification when a build fails
       app_store_connect:
-        apple_id: $APPLE_ID    
-        password: $APP_SPECIFIC_PASSWORD
+        api_key: Encrypted(Z0FBQUFBQmcxMVNwdEQ5cmVMcVo5cS1rQjJTZ1NWYTU3Yks0MEprMnBuZFAzWWlYMTFNcHV4RHk5d3RZd0VQbWkwamhnMDF5QmZHdWh0Q3U0dGtfX2I2cXNMdTRtb0ZHZFFsX25OLTBVaFppZjJfY21fN0VYOFNUeXlHWVlGdncwZVI2a29MWURkQ29KSGRmWEJmREtxUDhzX2dfQ2ZGT3dMTkpJaGc2ek1MTEc2TGVBOXdtVXVYaGU4NlYwenBsZUZ6VlpqR19oMjlqSWtaRk1xZzF6NWgyZUExRGZUT3lzeGUtbVBYSTVWWUlBRWRVUEZZMXdLeDdmbWhTeldLOVhYU1FaWDhDdXlPQ18wcGlVYTdBUHhUNERaSUg1QjJ2ZlJ1bjhfQ3MydTl5YmE2ZkZXa1F0OFhLd19aNzdSRzhfSmVURlJ2MDIwMS1na0VIcWtZY2dZN3EyY2Nxdnh6Rlk2TVU2S0U2RFgyZWlPWUp2VFZsZ0FXdDRWSW5nZDdUcDVSZC15akNvRjhhb1BleW11cWJJaHVBbVBqQVJTal9QV2NYTXRTWHRlV1p6bXVURTltZXI4VT0=)
+        key_id: MA7ST43YZ4
+        issuer_id: 7386957b-009f-48f8-8824-840dab310cac
+        submit_to_testflight: true
