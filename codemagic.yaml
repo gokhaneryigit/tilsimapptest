@@ -60,6 +60,7 @@ workflows:
       email:
         recipients:
           - gokhan_eryigit@aof.anadolu.edu.tr
+          - toprak6na@gmail.com
         notify:
           success: true     # To receive a notification when a build succeeds
           failure: false    # To not receive a notification when a build fails
